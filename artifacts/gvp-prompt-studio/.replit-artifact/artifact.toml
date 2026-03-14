@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "GVP Prompt Studio"
+version = "1.0.0"
+id = "artifacts/gvp-prompt-studio"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+localPort = 26089
+name = "web"
+paths = ["/"]
+
+[services.development]
+run = "pnpm --filter @workspace/gvp-prompt-studio run dev"
+
+[services.env]
+PORT = "26089"
+BASE_PATH = "/"
+
+[services.production]
+build = ["pnpm", "--filter", "@workspace/gvp-prompt-studio", "run", "build"]
+publicDir = "artifacts/gvp-prompt-studio/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"

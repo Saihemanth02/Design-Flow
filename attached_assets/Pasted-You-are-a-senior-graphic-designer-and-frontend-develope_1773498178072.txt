@@ -1,0 +1,44 @@
+You are a senior graphic designer and frontend developer with 5 years of elite 
+experience at Apple and Microsoft. Build a stunning single file HTML CSS and 
+JavaScript interactive Prompt Studio web application for Gayatri Vidya Parishad 
+college called GVP Prompt Studio. The entire UI must use a dark navy #0A0E27 base 
+background with molten gold #D4AF37 accents and neon cobalt blue #1B4FFF glow 
+effects and soft cream #E8E0C8 text throughout. At the very top show a GVP logo 
+badge which is a small rectangle or hexagon shape in navy with a gold border and 
+the letters GVP in Orbitron or Cinzel bold gold font and below it the full name 
+Gayatri Vidya Parishad in tiny gold small caps with a subtle gold outer glow on 
+the badge. Next to the logo show the heading GVP PROMPT STUDIO in Orbitron bold 
+gold font and below it a subtitle in Rajdhani font in cream color saying Generate 
+10/10 Claude optimized design prompts. Below the header show a section with 
+clickable chip buttons for design type selection including Poster, Thumbnail, 
+Instagram Post, Reel Cover, College Banner and Logo Design where the selected chip 
+turns solid gold with navy text and unselected chips have a navy background with 
+gold border and cream text. Below that show two input fields side by side for Topic 
+and Title Text with dark navy background, gold border on focus, cream placeholder 
+text and Rajdhani font. Below the inputs show a grid of six clickable style preset 
+cards in a 3 column layout where each card has a dark navy background with a thin 
+gold border and contains an icon, a bold style name in white and a short description 
+in cream and the selected card gets a bright gold border glow effect. The style 
+presets must be Neon Gold with icon for navy gold neon, Cyberpunk with icon for 
+purple cyan grid, Cosmic with icon for space stardust, Luxury Marble with icon for 
+white rose gold, Brutalist with icon for black white bold and Desi Fest with icon 
+for saffron festival. Below the style cards show clickable size chips for 1920x1080, 
+1080x1080, 1080x1920 and A4 Portrait in the same chip style as the type chips. 
+Below the size chips show a large full width button that says GENERATE MASTER PROMPT 
+with a gradient background going from gold #D4AF37 to champagne #F0D060 and navy 
+text in Orbitron bold font with a hover effect that slightly dims it. When the 
+button is clicked generate a complete structured Claude master prompt in a dark navy 
+output box with a gold border that appears below the button containing the full 
+role, objective, design system, color codes, typography, effects, GVP logo 
+instructions, layout instructions and output instructions all filled in based on the 
+selected type, entered topic and title, chosen style preset and chosen size. The 
+output box must have a COPY button in the top right corner in gold border style that 
+copies the full prompt to clipboard and changes text to COPIED for 2 seconds. Add 
+floating ambient gold and blue bokeh orb animations in the background using CSS 
+keyframe animations that slowly drift and pulse. Add a subtle grain texture overlay 
+on the entire page using CSS. Add neon gold glow on all active selected elements. 
+Use Google Fonts importing Orbitron and Rajdhani. Make the entire design fully 
+responsive for mobile. The overall mood must feel like an Apple product launch page 
+meets a luxury creative studio meets a cyberpunk design tool. Deliver this as one 
+complete single HTML file with all CSS and JavaScript embedded inside with zero 
+external dependencies except Google Fonts.
