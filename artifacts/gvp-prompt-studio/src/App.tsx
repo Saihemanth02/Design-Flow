@@ -225,7 +225,7 @@ export default function App() {
         <header className="header">
           <div className="gvp-badge">
             <div className="gvp-letters">GVP</div>
-            <div className="gvp-fullname">Gayatri<br />Vidya<br />Parishad</div>
+            <div className="gvp-fullname">Gayatri Vidya Parishad</div>
           </div>
           <div className="header-text">
             <h1>GVP PROMPT STUDIO</h1>
