@@ -66,6 +66,7 @@ const SIZES = [
   { label: "1080×1080", value: "1080x1080", desc: "1:1 Square" },
   { label: "1080×1920", value: "1080x1920", desc: "9:16 Portrait" },
   { label: "A4 Portrait", value: "2480x3508", desc: "Print Ready" },
+  { label: "Logo 1:1", value: "1000x1000", desc: "Logo Square" },
 ];
 
 function generatePrompt(
